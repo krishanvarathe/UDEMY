@@ -1,6 +1,6 @@
 public class IfElseIfExample {
     public static void main(String[] args) {
-        int num=96;
+        int num=92;
         if(num<35){
             System.out.println("Failed");
         }
@@ -13,7 +13,7 @@ public class IfElseIfExample {
         else if(num<75 && num<90){
             System.out.println("B Grade");
         }
-        else if(num>90){
+        else if(num>90 && num<=100){
             System.out.println("A Grade");
         }
         else{
