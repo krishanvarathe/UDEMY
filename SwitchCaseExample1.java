@@ -14,16 +14,16 @@ public class SwitchCaseExample1 {
 
         switch(operation){
             case '+':
-            System.out.println("addition :"+(a+b));
+            System.out.println("addition : "+(a+b));
             break;
             case '-':
-            System.out.println("subtraction :"+(a-b));
+            System.out.println("subtraction : "+(a-b));
             break;
             case '*':
-            System.out.println("multiplication :"+(a*b));
+            System.out.println("multiplication : "+(a*b));
             break;
             case '/':
-            System.out.println("divide :"+(a/b));
+            System.out.println("divide : "+(a/b));
             break;
             default:
             System.out.println("invalid operation");
